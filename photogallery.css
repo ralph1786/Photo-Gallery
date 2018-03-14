@@ -1,0 +1,30 @@
+body {
+	padding-top: 70px
+}
+
+.jumbotron {
+	background: #d0ddf2;
+}
+	
+a {
+	color: #7facf4;
+}
+
+a:hover {
+	color: #f9b452;
+}
+
+	/*Use the chrome Developer tool to check for specificity when applying css*/
+
+.navbar-light .navbar-nav .nav-link{
+	color: #7facf4;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #f9b452;
+}
+
+.navbar-light .navbar-brand:hover {
+	color: #f48f02;
+}
+
